@@ -1,0 +1,25 @@
+{
+  "runtimeCompatibilityVersion" : "10.0.0",
+  "itemName" : "MathLiveExternalPageFrameExample",
+  "itemWidth" : 640,
+  "itemHeight" : 550,
+  "tasks" : [ "Task01" ],
+  "resources" : [ {
+    "pathInZip" : "resources\\Background_640x550.png",
+    "size" : 7803,
+    "type" : "image"
+  } ],
+  "externalResources" : [ {
+    "pathInZip" : "external-resources\\example.html",
+    "size" : 2303,
+    "type" : "urlTarget"
+  } ],
+  "dependencies" : [ ],
+  "variables" : [ {
+    "name" : "V_OutputString",
+    "type" : "string"
+  }, {
+    "name" : "V_OutputEvaluated",
+    "type" : "string"
+  } ]
+}
