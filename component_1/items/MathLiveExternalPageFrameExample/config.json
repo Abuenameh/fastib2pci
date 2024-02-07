@@ -1360,7 +1360,7 @@
     } ],
     "externalResources" : [ {
       "name" : "example.html",
-      "size" : 2412,
+      "size" : 2482,
       "type" : "urlTarget"
     } ],
     "fontMappings" : [ ]
