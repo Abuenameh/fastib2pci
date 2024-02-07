@@ -11,7 +11,7 @@
   } ],
   "externalResources" : [ {
     "pathInZip" : "external-resources\\example.html",
-    "size" : 2346,
+    "size" : 2412,
     "type" : "urlTarget"
   } ],
   "dependencies" : [ ],
