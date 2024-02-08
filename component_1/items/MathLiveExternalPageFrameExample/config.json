@@ -12,7 +12,7 @@
           "x" : 0,
           "y" : 0,
           "width" : 640,
-          "height" : 550
+          "height" : 480
         },
         "font" : {
           "name" : "Segoe UI",
@@ -73,7 +73,7 @@
               "x" : 0,
               "y" : 0,
               "width" : 640,
-              "height" : 550
+              "height" : 480
             },
             "font" : {
               "name" : "Segoe UI",
@@ -95,11 +95,7 @@
             "border" : {
               "style" : "none",
               "width" : 0,
-              "radius" : 0,
-              "color" : {
-                "default" : "rgba(176, 176, 176, 1)",
-                "disabled" : "rgba(210,210,210,1)"
-              }
+              "radius" : 0
             },
             "transform" : { },
             "state" : {
@@ -109,9 +105,7 @@
             },
             "text" : { },
             "image" : {
-              "displayMode" : "overlay",
-              "overlayType" : "default",
-              "default" : "Background_640x550.png"
+              "displayMode" : "none"
             },
             "cursor" : {
               "standard" : "auto"
@@ -120,366 +114,23 @@
             "event" : { },
             "classifiers" : [ ],
             "link" : { },
-            "userDefinedId" : "$498666513156700",
-            "pageEditId" : "_JSUrELQ3EeKyOvdeD6Tplg",
+            "userDefinedId" : "$48792491385900",
+            "pageEditId" : "_nfQfMMbGEe6gxqOBLI0pPg",
             "trace" : {
               "skipTrace" : false,
               "type" : "Panel"
             },
             "autoLayoutLayer" : "none",
             "cssClassNames" : [ "Panel" ],
-            "contributeVariable" : false,
+            "contributeVariable" : true,
             "cbaChildren" : [ {
-              "type" : "CbaContainer",
-              "config" : {
-                "position" : {
-                  "x" : 40,
-                  "y" : 348,
-                  "width" : 580,
-                  "height" : 140
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "solid",
-                  "width" : 2,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "auto"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$939718902667800",
-                "pageEditId" : "_tSovUIjxEe2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "Panel"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "Panel" ],
-                "contributeVariable" : false,
-                "cbaChildren" : [ ]
-              }
-            }, {
-              "type" : "CbaContainer",
-              "config" : {
-                "position" : {
-                  "x" : 40,
-                  "y" : 210,
-                  "width" : 580,
-                  "height" : 50
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "auto"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$943166061282400",
-                "pageEditId" : "_uJMqQIj5Ee2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "Panel"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "Panel" ],
-                "contributeVariable" : false,
-                "cbaChildren" : [ ]
-              }
-            }, {
-              "type" : "CbaRichTextField",
-              "config" : {
-                "position" : {
-                  "x" : 10,
-                  "y" : 10,
-                  "width" : 477,
-                  "height" : 33
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "default"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$498666513200900",
-                "pageEditId" : "_oZ5-AGY1EeqfRqtBOK1K_Q",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "RichTextField"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "HTMLTextField" ],
-                "contributeVariable" : false,
-                "highlightText" : false,
-                "toggleType" : "none",
-                "stylesMap" : {
-                  "HIGHLIGHT" : {
-                    "backgroundColor" : "rgba(255, 204, 102, 1)"
-                  },
-                  "fontname_0_Arial" : {
-                    "fontFamily" : "'Arial'"
-                  },
-                  "fontsize_0_18" : {
-                    "fontSize" : "18px"
-                  },
-                  "fontcolor_0_rgba_0__0__0__1_" : {
-                    "color" : "rgba(0, 0, 0, 1)"
-                  }
-                },
-                "value" : {
-                  "blocks" : [ {
-                    "key" : "_0",
-                    "text" : "Math Live ExternalPageFrame-Example",
-                    "type" : "cbaAlignLeft",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 35,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 35,
-                      "style" : "fontsize_0_18"
-                    }, {
-                      "offset" : 0,
-                      "length" : 35,
-                      "style" : "fontcolor_0_rgba_0__0__0__1_"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  } ],
-                  "entityMap" : { }
-                },
-                "contentModifiers" : [ ]
-              }
-            }, {
-              "type" : "CbaRichTextField",
-              "config" : {
-                "position" : {
-                  "x" : 10,
-                  "y" : 525,
-                  "width" : 321,
-                  "height" : 20
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "default"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$498666513217400",
-                "pageEditId" : "_AJ4IYGY4EeqfRqtBOK1K_Q",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "RichTextField"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "HTMLTextField" ],
-                "contributeVariable" : false,
-                "highlightText" : false,
-                "toggleType" : "none",
-                "stylesMap" : {
-                  "HIGHLIGHT" : {
-                    "backgroundColor" : "rgba(255, 204, 102, 1)"
-                  },
-                  "fontname_0_Arial" : {
-                    "fontFamily" : "'Arial'"
-                  },
-                  "fontsize_0_13" : {
-                    "fontSize" : "13px"
-                  },
-                  "fontcolor_0_rgba_0__0__0__1_" : {
-                    "color" : "rgba(0, 0, 0, 1)"
-                  },
-                  "fontstyle_0_BOLD" : {
-                    "fontWeight" : "bold"
-                  }
-                },
-                "value" : {
-                  "blocks" : [ {
-                    "key" : "_0",
-                    "text" : "File: MathLiveExternalPageFrameExample.zip",
-                    "type" : "cbaAlignLeft",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 42,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 42,
-                      "style" : "fontsize_0_13"
-                    }, {
-                      "offset" : 0,
-                      "length" : 42,
-                      "style" : "fontcolor_0_rgba_0__0__0__1_"
-                    }, {
-                      "offset" : 0,
-                      "length" : 4,
-                      "style" : "fontstyle_0_BOLD"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  } ],
-                  "entityMap" : { }
-                },
-                "contentModifiers" : [ ]
-              }
-            }, {
               "type" : "CbaExternalPageFrame",
               "config" : {
                 "position" : {
-                  "x" : 40,
-                  "y" : 103,
-                  "width" : 580,
-                  "height" : 385
+                  "x" : 0,
+                  "y" : 0,
+                  "width" : 640,
+                  "height" : 480
                 },
                 "font" : {
                   "name" : "Segoe UI",
@@ -492,72 +143,6 @@
                 "color" : {
                   "text" : {
                     "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "auto"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$881409276781800",
-                "pageEditId" : "_AzbXMIhqEe2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "ExternalPageFrame"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "ExternalPageFrame" ],
-                "contributeVariable" : false,
-                "pageAddress" : "example.html"
-              }
-            }, {
-              "type" : "CbaButton",
-              "config" : {
-                "position" : {
-                  "x" : 504,
-                  "y" : 498,
-                  "width" : 118,
-                  "height" : 36
-                },
-                "font" : {
-                  "name" : "Arial",
-                  "size" : 15,
-                  "alignmentHorizontal" : "center",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "selected" : "rgba(0, 0, 0, 1)",
-                    "visited" : "rgba(0, 0, 0, 1)",
                     "disabled" : "rgba(167, 166, 170, 1)"
                   },
                   "background" : {
@@ -565,81 +150,9 @@
                   }
                 },
                 "border" : {
-                  "style" : "outset",
-                  "width" : 1,
-                  "radius" : 2,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : {
-                  "label" : "Next"
-                },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "auto"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$939777892359800",
-                "pageEditId" : "_2XsPUIjxEe2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "Button"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "Button" ],
-                "contributeVariable" : false,
-                "highlight" : "none",
-                "selectionHandlerType" : "none",
-                "toggleType" : "none"
-              }
-            }, {
-              "type" : "CbaRichTextField",
-              "config" : {
-                "position" : {
-                  "x" : 40,
-                  "y" : 55,
-                  "width" : 580,
-                  "height" : 40
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
                   "style" : "none",
                   "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
+                  "radius" : 0
                 },
                 "transform" : { },
                 "state" : {
@@ -652,444 +165,22 @@
                   "displayMode" : "none"
                 },
                 "cursor" : {
-                  "standard" : "default"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$940630526261800",
-                "pageEditId" : "_aX6f0IjzEe2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "RichTextField"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "HTMLTextField" ],
-                "contributeVariable" : false,
-                "highlightText" : false,
-                "toggleType" : "none",
-                "stylesMap" : {
-                  "HIGHLIGHT" : {
-                    "backgroundColor" : "rgba(255, 204, 102, 1)"
-                  },
-                  "fontname_0_Arial" : {
-                    "fontFamily" : "'Arial'"
-                  },
-                  "fontsize_0_15" : {
-                    "fontSize" : "15px"
-                  },
-                  "fontcolor_0_rgba_0__0__0__1_" : {
-                    "color" : "rgba(0, 0, 0, 1)"
-                  }
-                },
-                "value" : {
-                  "blocks" : [ {
-                    "key" : "_0",
-                    "text" : "Example of a task for which a formula needs to be entered (e.g., the reduce the fraction with the numerator 125 and the denominator 5):",
-                    "type" : "cbaAlignLeft",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 135,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 135,
-                      "style" : "fontsize_0_15"
-                    }, {
-                      "offset" : 0,
-                      "length" : 135,
-                      "style" : "fontcolor_0_rgba_0__0__0__1_"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  } ],
-                  "entityMap" : { }
-                },
-                "contentModifiers" : [ ]
-              }
-            }, {
-              "type" : "CbaRichTextField",
-              "config" : {
-                "position" : {
-                  "x" : 39,
-                  "y" : 489,
-                  "width" : 453,
-                  "height" : 19
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "default"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$940293229386300",
-                "pageEditId" : "_PhrykIjyEe2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "RichTextField"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "HTMLTextField" ],
-                "contributeVariable" : false,
-                "highlightText" : false,
-                "toggleType" : "none",
-                "stylesMap" : {
-                  "HIGHLIGHT" : {
-                    "backgroundColor" : "rgba(255, 204, 102, 1)"
-                  },
-                  "fontname_0_Arial" : {
-                    "fontFamily" : "'Arial'"
-                  },
-                  "fontsize_0_10" : {
-                    "fontSize" : "10px"
-                  },
-                  "fontcolor_0_rgba_102__102__102__1_" : {
-                    "color" : "rgba(102, 102, 102, 1)"
-                  }
-                },
-                "value" : {
-                  "blocks" : [ {
-                    "key" : "_0",
-                    "text" : "This space is used by the on-screen keyboard and should not be used for displaying task content. ",
-                    "type" : "cbaAlignLeft",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 97,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 97,
-                      "style" : "fontsize_0_10"
-                    }, {
-                      "offset" : 0,
-                      "length" : 97,
-                      "style" : "fontcolor_0_rgba_102__102__102__1_"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  } ],
-                  "entityMap" : { }
-                },
-                "contentModifiers" : [ ]
-              }
-            }, {
-              "type" : "CbaRichTextField",
-              "config" : {
-                "position" : {
-                  "x" : 47,
-                  "y" : 281,
-                  "width" : 248,
-                  "height" : 47
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : { },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "default"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ ],
-                "link" : { },
-                "userDefinedId" : "$943315798166800",
-                "pageEditId" : "_93l1wIj5Ee2EJ4SbpMit1A",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "RichTextField"
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "HTMLTextField" ],
-                "contributeVariable" : false,
-                "highlightText" : false,
-                "toggleType" : "none",
-                "stylesMap" : {
-                  "HIGHLIGHT" : {
-                    "backgroundColor" : "rgba(255, 204, 102, 1)"
-                  },
-                  "fontname_0_Arial" : {
-                    "fontFamily" : "'Arial'"
-                  },
-                  "fontsize_0_10" : {
-                    "fontSize" : "10px"
-                  },
-                  "fontcolor_0_rgba_0__0__0__1_" : {
-                    "color" : "rgba(0, 0, 0, 1)"
-                  }
-                },
-                "value" : {
-                  "blocks" : [ {
-                    "key" : "_0",
-                    "text" : "Response as FSM Variable of type String:",
-                    "type" : "cbaAlignRight",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 40,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 40,
-                      "style" : "fontsize_0_10"
-                    }, {
-                      "offset" : 0,
-                      "length" : 40,
-                      "style" : "fontcolor_0_rgba_0__0__0__1_"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  }, {
-                    "key" : "_1",
-                    "text" : "",
-                    "type" : "cbaAlignLeft",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  }, {
-                    "key" : "_2",
-                    "text" : "Evaluated response (using https://cortexjs.io/):",
-                    "type" : "cbaAlignRight",
-                    "depth" : 0,
-                    "inlineStyleRanges" : [ {
-                      "offset" : 0,
-                      "length" : 48,
-                      "style" : "fontname_0_Arial"
-                    }, {
-                      "offset" : 0,
-                      "length" : 48,
-                      "style" : "fontsize_0_10"
-                    }, {
-                      "offset" : 0,
-                      "length" : 48,
-                      "style" : "fontcolor_0_rgba_0__0__0__1_"
-                    } ],
-                    "entityRanges" : [ ],
-                    "data" : { }
-                  } ],
-                  "entityMap" : { }
-                },
-                "contentModifiers" : [ ]
-              }
-            }, {
-              "type" : "CbaSimpleTextField",
-              "config" : {
-                "position" : {
-                  "x" : 303,
-                  "y" : 282,
-                  "width" : 312,
-                  "height" : 16
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : {
-                  "label" : "V_OutputString",
-                  "dynamic" : {
-                    "variable" : "V_OutputString"
-                  }
-                },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
                   "standard" : "auto"
                 },
                 "tabIndex" : -1,
                 "event" : { },
-                "classifiers" : [ "comparesPosition" ],
+                "classifiers" : [ ],
                 "link" : { },
-                "userDefinedId" : "$943166061286700",
-                "pageEditId" : "_xdMxoIj5Ee2EJ4SbpMit1A",
+                "userDefinedId" : "$48792491403400",
+                "pageEditId" : "_uWgq4MbGEe6gxqOBLI0pPg",
                 "trace" : {
                   "skipTrace" : false,
-                  "type" : "ValueDisplay",
-                  "addOn" : {
-                    "displayType" : "string"
-                  }
+                  "type" : "ExternalPageFrame"
                 },
                 "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "VariableValueDisplay" ],
-                "contributeVariable" : false,
-                "renderAsDiv" : true,
-                "suppressSelections" : true
-              }
-            }, {
-              "type" : "CbaSimpleTextField",
-              "config" : {
-                "position" : {
-                  "x" : 303,
-                  "y" : 313,
-                  "width" : 312,
-                  "height" : 16
-                },
-                "font" : {
-                  "name" : "Segoe UI",
-                  "size" : 11,
-                  "alignmentHorizontal" : "left",
-                  "bold" : false,
-                  "italic" : false,
-                  "underlined" : false
-                },
-                "color" : {
-                  "text" : {
-                    "default" : "rgba(0, 0, 0, 1)",
-                    "disabled" : "rgba(167, 166, 170, 1)"
-                  },
-                  "background" : {
-                    "default" : "rgba(0,0,0,0)",
-                    "selected" : "rgba(0,0,0,0)"
-                  }
-                },
-                "border" : {
-                  "style" : "none",
-                  "width" : 0,
-                  "radius" : 0,
-                  "color" : {
-                    "default" : "rgba(176, 176, 176, 1)",
-                    "disabled" : "rgba(210,210,210,1)"
-                  }
-                },
-                "transform" : { },
-                "state" : {
-                  "disabled" : false,
-                  "selected" : false,
-                  "hidden" : false
-                },
-                "text" : {
-                  "label" : "V_OutputEvaluated",
-                  "dynamic" : {
-                    "variable" : "V_OutputEvaluated"
-                  }
-                },
-                "image" : {
-                  "displayMode" : "none"
-                },
-                "cursor" : {
-                  "standard" : "auto"
-                },
-                "tabIndex" : -1,
-                "event" : { },
-                "classifiers" : [ "comparesPosition" ],
-                "link" : { },
-                "userDefinedId" : "$355532211655300",
-                "pageEditId" : "_yLY8QOD8Ee21frfKcmiKJA",
-                "trace" : {
-                  "skipTrace" : false,
-                  "type" : "ValueDisplay",
-                  "addOn" : {
-                    "displayType" : "string"
-                  }
-                },
-                "autoLayoutLayer" : "none",
-                "cssClassNames" : [ "VariableValueDisplay" ],
-                "contributeVariable" : false,
-                "renderAsDiv" : true,
-                "suppressSelections" : true
+                "cssClassNames" : [ "ExternalPageFrame" ],
+                "contributeVariable" : true,
+                "pageAddress" : "example.html"
               }
             } ]
           }
@@ -1099,25 +190,9 @@
           "blockSelectionChanges" : true,
           "enforceSingleSelect" : true,
           "allowDeselect" : true
-        }, {
-          "name" : "/page=page/index=0/index=0",
-          "blockSelectionChanges" : true,
-          "enforceSingleSelect" : true,
-          "allowDeselect" : true
-        }, {
-          "name" : "/page=page/index=0/index=1",
-          "blockSelectionChanges" : true,
-          "enforceSingleSelect" : true,
-          "allowDeselect" : true
         } ],
         "propagationGroups" : [ {
           "name" : "/page=page/index=0",
-          "memberIndexPaths" : [ ]
-        }, {
-          "name" : "/page=page/index=0/index=0",
-          "memberIndexPaths" : [ ]
-        }, {
-          "name" : "/page=page/index=0/index=1",
           "memberIndexPaths" : [ ]
         } ]
       }
@@ -1125,20 +200,15 @@
   } ],
   "valueMaps" : [ ],
   "variables" : [ {
-    "name" : "V_OutputString",
-    "type" : "string",
-    "value" : "(empty)"
-  }, {
-    "name" : "V_OutputEvaluated",
-    "type" : "string",
-    "value" : "(empty)"
+    "name" : "Response",
+    "type" : "string"
   } ],
   "tasks" : [ {
     "name" : "Task01",
     "withEditContextMenu" : false,
     "initialPage" : "page",
     "itemWidth" : 640,
-    "itemHeight" : 550,
+    "itemHeight" : 480,
     "traceVariableValues" : false,
     "cssStyles" : "",
     "itemHighlightColor" : "rgba(255, 204, 102, 1)",
@@ -1353,14 +423,10 @@
     }
   } ],
   "usedResources" : {
-    "resources" : [ {
-      "name" : "Background_640x550.png",
-      "size" : 7803,
-      "type" : "image"
-    } ],
+    "resources" : [ ],
     "externalResources" : [ {
       "name" : "example.html",
-      "size" : 2482,
+      "size" : 2435,
       "type" : "urlTarget"
     } ],
     "fontMappings" : [ ]

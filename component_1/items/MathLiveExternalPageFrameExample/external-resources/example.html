@@ -1,84 +1,54 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-   </head>
-  <body>     
-    <math-field id="mf" math-virtual-keyboard-policy="auto" 
-     style="font-size: 24px; 
-		border-radius: 4px;		
-		padding: 15px;		
-		width: 300px;
-		height: 100px;
-		background: #FFFFFF;	 
-		border: 1px solid rgba(0, 0, 0, .3);
-		box-shadow: 0 0 8px rgba(0, 0, 0, .2);">
-	</math-field>
-	
-	<script src="//unpkg.com/@cortex-js/compute-engine"></script>
-	<script defer src="//unpkg.com/mathlive"></script>
-	
-	
-    <script type="module">
-		function getQueryVariable(variable)
-		{
-    		const parsedUrl = new URL(window.location.href);
-    		return parsedUrl.searchParams.get(variable);
-		}
-  
-		var indexPath = getQueryVariable('indexPath');
-		var userDefIdPath = getQueryVariable('userDefIdPath');
-		var traceCount = 0;
-
-		const ce = new ComputeEngine.ComputeEngine();
-    	
-		import './mathlive.js'; 	
-
-mathVirtualKeyboard.targetOrigin = "*";
-document.getElementById('mf').virtualKeyboardTargetOrigin = "*";
-      	
-      	document.getElementById('mf').addEventListener('input', (ev) => {
-        
-		const mf = ev.target;
-	    var val = mf.getValue() == "" ? "(empty)" : mf.getValue();
-		var num = mf.getValue() == "" ? "(empty)" : ce.parse(val.replace(":","/")).N().valueOf().toString()
-		if (num.startsWith("[")) {
-			num = "(error or incomplete)";
-		}		
-          
- 	  	var pass_data = {
-         	indexPath: indexPath,
-         	userDefIdPath: userDefIdPath,
-         	microfinVariable: { variableName: "V_OutputString", newValue: val},	
-         	traceCount : traceCount++
-     	};
-		window.parent.postMessage(JSON.stringify(pass_data), '*');
-
- 
- 	  	var pass_data = {
-         	indexPath: indexPath,
-         	userDefIdPath: userDefIdPath,
-         	microfinVariable: { variableName: "V_OutputEvaluated", newValue: num},	
-         	traceCount : traceCount++
-     	};
-		window.parent.postMessage(JSON.stringify(pass_data), '*');
-
-      }); 
-
-
-	document.querySelector('math-field').addEventListener('focus', () => {
-
-		mathVirtualKeyboard.editToolbar = "none";
-		//mathVirtualKeyboard.layouts = ["compact"];
-		mathVirtualKeyboard.layouts = {
-		rows: [				
-				[ "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
-				[ "+", "-", "\\cdot", ":", "=", ",", "\\frac{#@}{#?}","[left]","[right]","[backspace]"]
-			],			
-		};
-		mathVirtualKeyboard.visible = true;
-	});
- 
-    </script>
-  </body>
+<html lang="en-US" style="width: 92%; height: 95%;">
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body style="width: 100%; height: 100%;">
+        <math-field id="mf" math-virtual-keyboard-policy="auto" style="font-size: 24px;
+            		border-radius: 4px;
+		width: 100%;
+            		height: 100%;
+            		background: #FFFFFF;"></math-field>
+                    <script src="//unpkg.com/@cortex-js/compute-engine"></script>
+        <script defer src="//unpkg.com/mathlive"></script>
+        <script type="module">
+            function getQueryVariable(variable) {
+                const parsedUrl = new URL(window.location.href);
+                return parsedUrl.searchParams.get(variable);
+            }
+            var indexPath = getQueryVariable('indexPath');
+            var userDefIdPath = getQueryVariable('userDefIdPath');
+            var traceCount = 0;
+            const ce = new ComputeEngine.ComputeEngine();
+            mathVirtualKeyboard.targetOrigin = "*";
+            document.getElementById('mf').virtualKeyboardTargetOrigin = "*";
+            document.getElementById('mf').addEventListener('input', (ev) => {
+                const mf = ev.target;
+                var val = mf.getValue() == ""
+                    ? "(empty)"
+                    : mf.getValue();
+                var pass_data = {
+                    indexPath: indexPath,
+                    userDefIdPath: userDefIdPath,
+                    microfinVariable: {
+                        variableName: "Response",
+                        newValue: val
+                    },
+                    traceCount: traceCount++
+                };
+                window.parent.postMessage(JSON.stringify(pass_data), '*');
+            });
+            document.querySelector('math-field').addEventListener('focus', () => {
+                mathVirtualKeyboard.editToolbar = "none";
+                // mathVirtualKeyboard.layouts = ["compact"];
+                //mathVirtualKeyboard.layouts = {
+                //    rows: [
+                //        ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+                //        ["+", "-", "\\cdot", ":", "=", ",", "\\frac{#@}{#?}", "[left]", "[right]", "[backspace]"]
+                //    ]
+                //};
+                mathVirtualKeyboard.visible = true;
+            });
+        </script>
+    </body>
 </html>
